@@ -3,7 +3,7 @@ import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import Button from "../Button";
-// Local Data
+import LogoComponent from "../Logo/logoComponent"; // Correct import
 import data from "../../data/portfolio.json";
 
 const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
@@ -24,21 +24,16 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     <>
                         <div className="flex items-center justify-between p-2 laptop:p-0">
                             <div className="flex items-center gap-2">
-                                {/* Logo */}
-                                <img
-                                    src="/images/logo.svg" // Relative path to your logo
-                                    alt="Logo"
-                                    className="h-8 w-8 cursor-pointer"
-                                    onClick={() => router.push("/")}
-                                />
+                                {/* Use LogoComponent */}
+                                <LogoComponent />
                                 <h1
                                     onClick={() => router.push("/")}
-                                    className="font-medium p-2 laptop:p-0 link"
+                                    className="font-medium p-2 laptop:p-0 link "
                                 >
                                     {name}.
                                 </h1>
                             </div>
-
+                            <Button onClick={handleAboutScroll}>About</Button>
                             <div className="flex items-center">
                                 {data.darkMode && (
                                     <Button
@@ -132,16 +127,11 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                 } dark:text-white tablet:flex`}
             >
                 <div className="flex items-center gap-2">
-                    {/* Logo */}
-                    <img
-                        src="/images/logo.svg" // Relative path to your logo
-                        alt="Logo"
-                        className="h-8 w-8 cursor-pointer"
-                        onClick={() => router.push("/")}
-                    />
+                    {/* Use LogoComponent */}
+                    <LogoComponent />
                     <h1
                         onClick={() => router.push("/")}
-                        className="font-medium cursor-pointer mob:p-2 laptop:p-0"
+                        className="font-medium cursor-none mob:p-2 laptop:p-0 "
                     >
                         {name}.
                     </h1>

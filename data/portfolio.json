@@ -1,6 +1,6 @@
 {
   "name": "Mustafa",
-  "headerTaglineOne": "Hello ",
+  "headerTaglineOne": "Hello",
   "headerTaglineTwo": "I'm Mustafa Budak alias Mystik - aspiring",
   "headerTaglineThree": "developer",
   "headerTaglineFour": "based in Cologne, Germany",
@@ -11,23 +11,27 @@
   "socials": [
     {
       "id": "1",
-      "title": "Github",
-      "link": "https://github.com/MystikFRD"
+      "title": "GitHub",
+      "link": "https://github.com/MystikFRD",
+      "icon": "FaGithub"
     },
     {
       "id": "2",
       "title": "LinkedIn",
-      "link": "https://www.linkedin.com/in/mustafa-budak-430b30231/"
+      "link": "https://www.linkedin.com/in/mustafa-budak-430b30231/",
+      "icon": "FaLinkedin"
     },
     {
       "id": "3",
-      "title": "X",
-      "link": "https://x.com/MystikDEV"
+      "title": "",
+      "link": "https://x.com/MystikDEV",
+      "icon": "SiX"
     },
     {
-      "id": "5",
+      "id": "4",
       "title": "Email",
-      "link": "mailto:work@mubu.dev"
+      "link": "mailto:work@mubu.dev",
+      "icon": "FaEnvelope"
     }
   ],
   "projects": [
@@ -41,9 +45,8 @@
   ],
   "about": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community.",
   "resume": {
-    "tagline": "👋  I'm a aspiring software engineer, that currently studies Computer Science .",
-    "description": "My passion for computer science stems from my early experiences with computers. Growing up, I was captivated by troubleshooting and optimizing operating systems and software to enhance the performance of older-generation machines. In my teenage years, this interest evolved into a deeper understanding of programming, shifting my focus from hardware to software. Following my apprenticeship, I realized that coding and programming were my true passions, solidifying my desire to pursue a career in this field. ",
-
+    "tagline": "👋 I'm an aspiring software engineer, currently studying Computer Science.",
+    "description": "My passion for computer science stems from my early experiences with computers. Growing up, I was captivated by troubleshooting and optimizing operating systems and software to enhance the performance of older-generation machines. In my teenage years, this interest evolved into a deeper understanding of programming, shifting my focus from hardware to software. Following my apprenticeship, I realized that coding and programming were my true passions, solidifying my desire to pursue a career in this field.",
     "education": {
       "universityName": "University FOM",
       "universityDate": "2024-present",
@@ -60,7 +63,7 @@
       "NodeJs"
     ],
     "others": [
-     "PLC",
+      "PLC",
       "Electrical Engineering"
     ]
   },

@@ -1,1 +1,100 @@
-{"name":"Mustafa","headerTaglineOne":"Hello ","headerTaglineTwo":"I'm Mustafa Budak alias Mystik - aspiring","headerTaglineThree":"developer","headerTaglineFour":" based in Cologne, Germany","showCursor":true,"showBlog":false,"darkMode":true,"showResume":false,"socials":[{"id":"1","title":"Github","link":"https://github.com/MystikFRD"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/mustafa-budak-430b30231/"},{"id":"3","title":"X","link":"https://x.com/MystikDEV"},{"id":"5","title":"Email","link":"mailto:work@mubu.dev"}],"projects":[{"id":"1","title":"notbooking","description":"university project","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"https://github.com/MystikFRD/notbookingcom"}],"about":"I am an aspiring developer with a interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]},"aboutpara":"I am an aspiring developer with a interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community."}
+{
+  "name": "Mustafa",
+  "headerTaglines": {
+    "lineOne": "Hello",
+    "lineTwo": "I'm Mustafa Budak alias Mystik - aspiring",
+    "lineThree": "developer",
+    "lineFour": "based in Cologne, Germany"
+  },
+  "preferences": {
+    "showCursor": true,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": false
+  },
+  "socials": [
+    {
+      "id": "1",
+      "title": "GitHub",
+      "link": "https://github.com/MystikFRD"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/mustafa-budak-430b30231/"
+    },
+    {
+      "id": "3",
+      "title": "X",
+      "link": "https://x.com/MystikDEV"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:work@mubu.dev"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "NotBooking",
+      "description": "University project",
+      "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      "url": "https://github.com/MystikFRD/notbookingcom"
+    }
+  ],
+  "about": {
+    "summary": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a university in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the computer science community.",
+    "detailed": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a university in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the computer science community."
+  },
+  "resume": {
+    "tagline": "👋 I'm a software engineer, product designer.",
+    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, JavaScript, and most of the web frameworks.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "March 2022 - Present",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Bullet One",
+          "Bullet Two"
+        ]
+      },
+      {
+        "id": "2",
+        "dates": "July 2020 - March 2022",
+        "type": "Full Time",
+        "position": "Frontend Engineer at X",
+        "bullets": [
+          "Worked on the frontend of a React application",
+          "Worked on the frontend of a React application"
+        ]
+      }
+    ],
+    "education": {
+      "universityName": "University X",
+      "universityDate": "2016-2020",
+      "universityDescription": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    },
+    "skills": {
+      "languages": [
+        "JavaScript",
+        "HTML5",
+        "CSS",
+        "Python",
+        "Go"
+      ],
+      "frameworks": [
+        "React",
+        "TypeScript",
+        "Node.js"
+      ],
+      "tools": [
+        "Figma",
+        "Adobe XD",
+        "AWS"
+      ]
+    }
+  }
+}

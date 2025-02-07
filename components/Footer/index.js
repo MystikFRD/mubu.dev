@@ -55,7 +55,7 @@ const Footer = () => {
             <p className="text-sm font-bold">
               Made With ❤ by{" "}
               <Link
-                  href="https://www.mubu.dev"
+                  href="https://mubu.dev"
                   className="underline underline-offset-1 hover:text-gray-300 transition-colors duration-300"
               >
                 Mustafa Budak

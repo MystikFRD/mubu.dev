@@ -5,37 +5,39 @@ import { useTheme } from "next-themes";
 
 const Cursor = () => {
   const theme = useTheme();
-  const [mount, setMount] = useState();
+  const [mounted, setMounted] = useState(false);
 
-  const getCusomColor = () => {
+  // Dynamically set cursor color based on theme
+  const getCustomColor = () => {
     if (theme.theme === "dark") {
-      return "#fff";
+      return "#fff"; // White for dark mode
     } else if (theme.theme === "light") {
-      return "#000";
+      return "#000"; // Black for light mode
     }
   };
 
   useEffect(() => {
-    setMount(true);
+    setMounted(true);
   }, []);
+
   return (
-    <>
-      {mount && (
-        <CustomCursor
-          targets={[".link"]}
-          customClass="custom-cursor"
-          dimensions={30}
-          fill={getCusomColor()}
-          smoothness={{
-            movement: 0.2,
-            scale: 0.1,
-            opacity: 0.2,
-          }}
-          targetOpacity={0.5}
-          targetScale={2}
-        />
-      )}
-    </>
+      <>
+        {mounted && (
+            <CustomCursor
+                targets={[".link", "button", "a"]} // Add more targets as needed
+                customClass="custom-cursor"
+                dimensions={30} // Cursor size
+                fill={getCustomColor()} // Dynamic color
+                smoothness={{
+                  movement: 0.3, // Increase for smoother movement
+                  scale: 0.2,
+                  opacity: 0.3,
+                }}
+                targetOpacity={0.6} // Targeted element opacity
+                targetScale={1.8} // Scale of targeted elements
+            />
+        )}
+      </>
   );
 };
 

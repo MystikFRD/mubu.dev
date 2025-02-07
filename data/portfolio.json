@@ -7,7 +7,7 @@
   "showCursor": true,
   "showBlog": false,
   "darkMode": true,
-  "showResume": false,
+  "showResume": true,
   "socials": [
     {
       "id": "1",
@@ -41,35 +41,18 @@
   ],
   "about": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community.",
   "resume": {
-    "tagline": "👋  I'm a software engineer, product designer.",
-    "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, JavaScript, and most of the Web frameworks.",
-    "experiences": [
-      {
-        "id": "1",
-        "dates": "March 2022 - Present",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Bullet One, Bullet Two"
-      },
-      {
-        "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
-        "dates": "July 2020 - March 2022",
-        "type": "Full Time",
-        "position": "Frontend Engineer at X",
-        "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
-      }
-    ],
+    "tagline": "👋  I'm a aspiring software engineer, that currently studies Computer Science .",
+    "description": "My passion for computer science stems from my early experiences with computers. Growing up, I was captivated by troubleshooting and optimizing operating systems and software to enhance the performance of older-generation machines. In my teenage years, this interest evolved into a deeper understanding of programming, shifting my focus from hardware to software. Following my apprenticeship, I realized that coding and programming were my true passions, solidifying my desire to pursue a career in this field. ",
+
     "education": {
-      "universityName": "University X",
-      "universityDate": "2016-2020",
-      "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+      "universityName": "University FOM",
+      "universityDate": "2024-present",
+      "universityPara": "Computer Science"
     },
     "languages": [
       "JavaScript",
       "HTML5",
-      "CSS",
-      "Python",
-      "Go"
+      "CSS"
     ],
     "frameworks": [
       "React",
@@ -77,9 +60,8 @@
       "NodeJs"
     ],
     "others": [
-      "Figma",
-      "AdobeXD",
-      "AWS"
+     "PLC",
+      "Electrical Engineering"
     ]
   },
   "aboutPara": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community."

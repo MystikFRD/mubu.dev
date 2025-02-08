@@ -41,6 +41,13 @@
       "description": "university project",
       "imageSrc": "https://i.ibb.co/0x89rhT/8dec7450-ed16-4ea9-8d66-0b737f6b3bb0.webp",
       "url": "https://github.com/MystikFRD/notbookingcom"
+    },
+    {
+      "id": "2",
+      "title": "Semiconductors's [PENDING]",
+      "description": "nothing to do with uni, or work, I am currently trying to learn how PCB Design, and Semiconductors work, out of self interests. This knowledge will be used for other projects like, AI, Robotics and as mentioned PCB Design",
+      "imageSrc": "https://www.ingenieur.de/wp-content/uploads/2024/07/panthermedia_19134833_5472x2673-scaled-e1720172622920.jpg",
+      "url": "https://www.notion.so/Curriculum-Semiconductor-Design-CPU-and-GPU-1942dba1e52380ad9aeed240a66cda97?pvs=4"
     }
   ],
   "about": "I am an aspiring developer with an interest in web development. Currently, I am pursuing a Bachelor of Science in Computer Science at a University in Cologne, where I am gaining a solid foundation in programming and web development. I am eager to learn and create innovative web applications and contribute to the Computer Science community.",

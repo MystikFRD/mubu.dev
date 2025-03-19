@@ -9,22 +9,4 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-    # Optionale Konfiguration für Entwicklungsumgebung
-    # volumes:
-    #  - ./:/app
-    #  - /app/node_modules
-    #  - /app/.next
     restart: always
-
-  # Füge weitere Dienste hinzu, falls benötigt
-  # db:
-  #   image: postgres:14
-  #   volumes:
-  #     - postgres_data:/var/lib/postgresql/data
-  #   environment:
-  #     - POSTGRES_PASSWORD=postgres
-  #     - POSTGRES_USER=postgres
-  #     - POSTGRES_DB=my_app
-
-# volumes:
-#   postgres_data:

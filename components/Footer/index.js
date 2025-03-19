@@ -1,4 +1,4 @@
-import React from 'react';
+.import React from 'react';
 import Link from 'next/link';
 import Button from '../Button';
 import { SiDiscord } from 'react-icons/si';
@@ -45,7 +45,7 @@ const Footer = () => {
             <p className="text-sm font-bold">
               Made With ❤ by{' '}
               <Link
-                  href="https://mubu.dev"
+                  href="https://me.mubu.dev"
                   className="underline underline-offset-1 hover:text-gray-300 transition-colors duration-300"
               >
                 Mustafa Budak

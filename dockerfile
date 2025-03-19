@@ -1,23 +1,23 @@
-# Basis-Image
-FROM node:18-alpine
-
-# Arbeitsverzeichnis im Container
+# Build-Stage
+FROM node:18-alpine AS builder
 WORKDIR /app
-
-# Kopiere package.json und package-lock.json
 COPY package*.json ./
-
-# Installiere Abhängigkeiten
 RUN npm install
-
-# Kopiere den Rest des Projekts
 COPY . .
-
-# Baue die Next.js-Anwendung
 RUN npm run build
 
-# Expose Port 3000
-EXPOSE 3000
+# Production-Stage
+FROM node:18-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV production
 
-# Starte die Anwendung
+# Kopiere nur die benötigten Dateien
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/next.config.js ./
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/node_modules ./node_modules
+
+# Start der Anwendung
+EXPOSE 3000
 CMD ["npm", "start"]
